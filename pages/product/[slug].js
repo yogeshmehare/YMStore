@@ -120,7 +120,7 @@ const Slug = ({ mProds, mProduct, ColorsSet, SizesSet }) => {
 
   const CheckService = async () => {
     spinRef.current.classList.remove('hidden')
-    const pinsJson = await fetch('http://localhost:3000/api/pinServiceability')
+    const pinsJson = await fetch('/api/pinServiceability')
     const pins = await pinsJson.json()
     if (pins.includes(parseInt(pin))) {
       setServiceable(true)
