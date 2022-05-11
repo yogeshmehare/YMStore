@@ -29,7 +29,7 @@ const Login = () => {
     if (res.success) {
       setTimeout(() => {
         loginContext.SetLogInStatus(res.user);
-        router.push("http://localhost:3000")
+        router.push("/")
       }, 1500);
       toast.success(res.msg, {
         position: "top-left",
