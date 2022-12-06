@@ -108,7 +108,7 @@ const Cart = () => {
                                                 </div>
                                                 <p className="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
                                                 <div className="mt-6" onClick={toggleCartVisibility}>
-                                                    <Link href="/checkout">
+                                                    <Link legacyBehavior href="/checkout">
                                                         <a className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700">
                                                             Checkout
                                                         </a>

@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/updateLaptop": "pages/api/updateLaptop.js",
+  "/": "pages/index.js",
+  "/laptops": "pages/laptops.js",
   "/mobiles": "pages/mobiles.js",
-  "/laptops": "pages/laptops.js"
+  "/product/[slug]": "pages/product/[slug].js"
 }

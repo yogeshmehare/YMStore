@@ -146,7 +146,7 @@ const Signup = () => {
           <hr className="mb-6 border-t" />
 
           <div className="text-center">
-            <Link href="/login">
+            <Link legacyBehavior href="/login">
               <a className="inline-block text-blue-800 hover:text-blue-700 font-semibold">
                 Already have an account? Login!
               </a>

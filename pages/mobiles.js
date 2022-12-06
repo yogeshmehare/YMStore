@@ -43,7 +43,7 @@ const Mobiles = ({ mobiles }) => {
                     </svg>
                   </button>
                 </div>
-                <Link
+                <Link legacyBehavior
                   href={{
                     pathname: url,
                     query: {

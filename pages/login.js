@@ -105,7 +105,7 @@ const Login = () => {
             </button>
 
             <div className='flex justify-center mt-5'>
-              <Link href="/signup">
+              <Link legacyBehavior href="/signup">
                 <a className="text-blue-800 hover:text-blue-700 font-semibold">Create an
                   account</a>
               </Link>

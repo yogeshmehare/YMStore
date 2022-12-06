@@ -80,7 +80,7 @@ const Checkout = () => {
               <span>Total</span>
               <span className="font-semibold">$22.70</span>
             </div>
-            <Link href="/">
+            <Link legacyBehavior href="/">
               <a>
                 <button type="button" className="w-full py-2 font-semibold border rounded dark:bg-violet-400 dark:text-coolGray-900 dark:border-violet-400">
                   <p>Procceed to checkout</p>

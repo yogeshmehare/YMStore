@@ -74,28 +74,28 @@ const NavBar = () => {
             </div>
             <div id='mNavbar' className='hidden md:flex md:float-left'>
               {/* style={{ display: 'none' }}  */}
-              <Link href="/">
+              <Link legacyBehavior href="/">
                 <a>
                   <li className={`li text-white mx-2 my-0 font-bold hover:bg-violet-500 hover:text-blue-800 p-2  ${router.pathname==="/"?"bg-pink-500":""}`}>
                     Home
                   </li>
                 </a>
               </Link>
-              <Link href="/products">
+              <Link legacyBehavior href="/products">
                 <a onClick={ToggleDisplayOfNavbar1} >
                   <li className={`li text-white mx-2 my-0 font-bold hover:bg-violet-500 hover:text-blue-800 p-2 ${router.pathname==="/products"?"bg-pink-500":""}`}>
                     Products
                   </li>
                 </a>
               </Link>
-              <Link href="/about">
+              <Link legacyBehavior href="/about">
                 <a>
                   <li className={`li text-white mx-2 my-0 font-bold hover:bg-violet-500 hover:text-blue-800 p-2 ${router.pathname==="/about"?"bg-pink-500":""}`}>
                     About
                   </li>
                 </a>
               </Link>
-              <Link href="/contact">
+              <Link legacyBehavior href="/contact">
                 <a>
                   <li className={`li text-white mx-2 my-0 font-bold hover:bg-violet-500 hover:text-blue-800 p-2 ${router.pathname==="/contact"?"bg-pink-500":""}`}>
                     Contact
@@ -107,7 +107,7 @@ const NavBar = () => {
               <div className='cursor-pointer flex justify-center rounded-3xl  bg-white p-1'>
                 <SearchBox />
               </div>
-              {!loginStatus && <Link href={'/login'}>
+              {!loginStatus && <Link legacyBehavior href={'/login'}>
                 <a>
                   <div className='loginBtn cursor-pointer flex justify-center space-x-1 text-white border-blue-700 border-2 p-1.5 bg-blue-800 rounded-lg
                   hover:text-blue-300 hover:bg-blue-600 hover:border-blue-900'>

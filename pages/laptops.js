@@ -55,7 +55,7 @@ const Laptops = ({ laptops }) => {
 
 
                 </div>
-                <Link href={{
+                <Link legacyBehavior href={{
                   pathname: url,
                   query: {
                     Category: "Laptop"
