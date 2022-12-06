@@ -1,7 +1,8 @@
 //Connect to my atlas
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://Yogesh124:Yome124@cluster0.jlpyp.mongodb.net/YMStoreDB?retryWrites=true&w=majority";
+// const uri = "mongodb+srv://Yogesh124:Yome124@cluster0.jlpyp.mongodb.net/YMStoreDB?retryWrites=true&w=majority";
+const uri = "mongodb+srv://Yogesh124:Yome124@@cluster0.jlpyp.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 async function run() {

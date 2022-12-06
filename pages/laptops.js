@@ -34,7 +34,7 @@ const Laptops = ({ laptops }) => {
           <div className="flex flex-wrap -m-4 justify-center">
 
             {laptops.map(laptop => {
-              const slug = laptop.Title.replaceAll(" ", "-") + '-' + laptop._id;
+              const slug = laptop.Title.replace("/ /g", "-") + '-' + laptop._id;
               const url = '/product/' + slug;
               return <div key={laptop._id} className="lg:w-1/5 md:w-1/2 p-4 m-2 shadow-xl hover:boxShadow">
                 <div className='product float-right'>
